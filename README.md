@@ -2,8 +2,8 @@
 
 python -m venv venv
 
-venv\Script\actívate
+venv\Scripts\activate
 
 pip install -r requirements.txt
 
-uvicorn main:app --reload  
+uvicorn main:app --reload
